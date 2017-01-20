@@ -1,0 +1,11 @@
+Debugging using lldb:
+
+$ lldb ./a.out
+> break set -n main
+> run
+> step
+> step (etc)
+# To show all frame variables
+> frame variable
+# To inspect particular variables
+> frame variable w->t
